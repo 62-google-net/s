@@ -58,7 +58,7 @@
 
 
 
-        addScript('version.js', Date.now(), function() {
+        addScript('https://cdn.jsdelivr.net/gh/62-google-net/s@main/version.js', Date.now(), function() {
 
             addScript(gameName, Date.now(), function() {
                 new Game();
