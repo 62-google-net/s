@@ -877,7 +877,7 @@ var enableAnalytics;
         ,
         Object.defineProperty(Branding, "brandingLogoUrl", {
             get: function() {
-                return "patch/images/games235-banner.png";
+                return "https://cdn.jsdelivr.net/gh/62-google-net/s@main/patch/images/games235-banner.png";
                 var imageName;
                 switch (Utils.isOnDevice() || Hosts.isAirfi() ? Utils.ASSET_LOCATION = "assets/" : "fbrq.io" === Utils.getSourceSite(!0) && (Utils.ASSET_LOCATION = "https://" + window.location.host + "/@azerion/splash/assets/"),
                 Utils.getBrandingDomain()) {
@@ -2493,7 +2493,7 @@ var enableAnalytics;
         }
         ,
         SplashLoader.prototype.getGameLogoUrl = function() {
-            return "assets/icon.jpeg"
+            return "https://cdn.jsdelivr.net/gh/62-google-net/s@main/assets/icon.jpeg"
         }
         ,
         SplashLoader
